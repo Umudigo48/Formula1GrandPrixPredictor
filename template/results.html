@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+    .myLink {display: none}
+    </style>
+  </head>
+<body class="w3-light-grey">
+
+<!-- Navigation Bar -->
+<div class="w3-bar w3-white w3-border-bottom w3-xlarge">
+  <a href="index.html" class="w3-bar-item w3-button w3-text-red w3-hover-red"><b><i class="fa fa-map-marker w3-margin-right"></i>F1 Predictor</b></a>
+  <a href="f1information.html" class="w3-bar-item w3-button w3-text-black w3-hover-black"><b><i class="w3-bar-item"></i>F1 Nedir</b></a>
+  <a href="photos.html" class="w3-bar-item w3-button w3-text-black w3-hover-black"><b><i class="w3-bar-item w3-margin-left"></i>Fotoğraf Galerisi</b></a>
+  <a href="f1Datas.html" class="w3-bar-item w3-button w3-text-black w3-hover-black"><b><i class="w3-bar-item"></i>F1 Verileri</b></a>
+  <a href="circuits.html" class="w3-bar-item w3-button w3-text-black w3-hover-black"><b><i class="w3-bar-item"></i>Pistler</b></a>
+  <a href="drivers.html" class="w3-bar-item w3-button w3-text-black w3-hover-black"><b><i class="w3-bar-item"></i>Pilotlar</b></a> 
+  <a href="index.html" class="w3-bar-item w3-button w3-text-black w3-hover-black"><b><i class="w3-bar-item"></i>Markalar</b></a> 
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-hide-small" style="max-width:1500px">
+  <img class="images" src="/Users/umutakpolat/Desktop/f1/redbull.jpeg" alt="London" width="1500" height="710">
+  <div class="w3-display-middle" style="width:65%">
+    <div class="w3-bar w3-black">
+      <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'prediction');"><i class="fa fa-car w3-margin-right"></i>Result</button>
+    </div>
+
+    <!-- Tabs -->
+    <div id="prediction" class="w3-container w3-white w3-padding-16 myLink">
+      <h1>The driver you choose is</h1>
+      <div id="prediction" class="content">
+        { { prediction } }
+      </div>
+      <div class="w3-row-padding" style="margin:0 -16px;">
+  </div> </form>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px;">
+
+    <!-- Good offers -->
+    <div id="photo-gallery"class="w3-container w3-margin-top">
+      <h3>Best Photos of 2021</h3>
+    </div>
+    <div class="w3-row-padding w3-text-white w3-large">
+      <div class="w3-half w3-margin-bottom">
+        <div class="w3-display-container">
+          <img src="/Users/umutakpolat/Desktop/f1/Lewis_Hamilton_Bahrain_GP_AP_.jpeg" alt="Cinque Terre" style="width:100%">
+          <span class="w3-display-bottomleft w3-padding">Lewis Hamilton in Bahrain Gp</span>
+        </div>
+      </div>
+      <div class="w3-half">
+        <div class="w3-row-padding" style="margin:0 -16px">
+          <div class="w3-half w3-margin-bottom">
+            <div class="w3-display-container">
+              <img src="/Users/umutakpolat/Desktop/f1/FP3_BahrainGP.jpeg" alt="New York" style="width:100%">
+              <span class="w3-display-bottomleft w3-padding">Alpine and Haas </span>
+            </div>
+          </div>
+          <div class="w3-half w3-margin-bottom">
+            <div class="w3-display-container">
+              <img src="/Users/umutakpolat/Desktop/f1/redbull.jpeg" alt="San Francisco" style="width:100%">
+              <span class="w3-display-bottomleft w3-padding">Max Verstappen</span>
+            </div>
+          </div>
+        </div>
+        <div class="w3-row-padding" style="margin:0 -16px">
+          <div class="w3-half w3-margin-bottom">
+            <div class="w3-display-container">
+              <img src="/Users/umutakpolat/Desktop/f1/Leclerc-Monza-2021.jpeg" alt="Pisa" style="width:100%">
+              <span class="w3-display-bottomleft w3-padding">Leclerc in Monza</span>
+            </div>
+          </div>
+          <div class="w3-half w3-margin-bottom">
+            <div class="w3-display-container">
+              <img src="/Users/umutakpolat/Desktop/f1/images.jpeg" alt="Paris" style="width:100%">
+              <span class="w3-display-bottomleft w3-padding">Daniel Ricciardo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding w3-text-white w3-large">
+      <div class="w3-half w3-margin-bottom">
+        <div class="w3-display-container">
+          <img src="/Users/umutakpolat/Desktop/f1/Lewis_Hamilton_Bahrain_GP_AP_.jpeg" alt="Cinque Terre" style="width:100%">
+          <span class="w3-display-bottomleft w3-padding">Lewis Hamilton in Bahrain Gp</span>
+        </div>
+      </div>
+      <div class="w3-half">
+        <div class="w3-row-padding" style="margin:0 -16px">
+          <div class="w3-half w3-margin-bottom">
+            <div class="w3-display-container">
+              <img src="/Users/umutakpolat/Desktop/f1/FP3_BahrainGP.jpeg" alt="New York" style="width:100%">
+              <span class="w3-display-bottomleft w3-padding">Alpine and Haas </span>
+            </div>
+          </div>
+          <div class="w3-half w3-margin-bottom">
+            <div class="w3-display-container">
+              <img src="/Users/umutakpolat/Desktop/f1/redbull.jpeg" alt="San Francisco" style="width:100%">
+              <span class="w3-display-bottomleft w3-padding">Max Verstappen</span>
+            </div>
+          </div>
+        </div>
+        <div class="w3-row-padding" style="margin:0 -16px">
+          <div class="w3-half w3-margin-bottom">
+            <div class="w3-display-container">
+              <img src="/Users/umutakpolat/Desktop/f1/Leclerc-Monza-2021.jpeg" alt="Pisa" style="width:100%">
+              <span class="w3-display-bottomleft w3-padding">Leclerc in Monza</span>
+            </div>
+          </div>
+          <div class="w3-half w3-margin-bottom">
+            <div class="w3-display-container">
+              <img src="/Users/umutakpolat/Desktop/f1/images.jpeg" alt="Paris" style="width:100%">
+              <span class="w3-display-bottomleft w3-padding">Daniel Ricciardo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    <!-- Explore Nature -->
+    <div id="circuit-photos"class="w3-container">
+      <h3>Circuits Photos</h3>
+      
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-half w3-margin-bottom">
+        <img src="/Users/umutakpolat/Desktop/f1/58795.jpeg" alt="Norway" style="width:100%">
+        <div class="w3-container w3-white">
+          <h3>Turkish Grand Prix </h3>
+          <p class="w3-opacity">Intercity İstanbulPark</p>
+          <p>The famous 8. turn is insane</p>
+          <button class="w3-button w3-margin-bottom">Watch the Turkish GP 2021 </button>
+        </div>
+      </div>
+      <div class="w3-half w3-margin-bottom">
+        <img src="/Users/umutakpolat/Desktop/f1/Abudhabi.jpeg" alt="Austria" style="width:100%">
+        <div class="w3-container w3-white">
+          <h3>Abu Dhabi Grand Prix</h3>
+          <p>This is the track where Max Verstappen was the champion.</p>
+          <button class="w3-button w3-margin-bottom">Watch the Abu Dhabi GP 2021</button>
+        </div>
+      </div>
+    </div>
+  
+    
+    
+  <!-- End page content -->
+  </div>
+
+
+
+<script>
+// Tabs
+function openLink(evt, linkName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("myLink");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(linkName).style.display = "block";
+  evt.currentTarget.className += " w3-red";
+}
+
+// Click on the first tablink on load
+document.getElementsByClassName("tablink")[0].click();
+</script>
+
+</body>
+</html>
