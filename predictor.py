@@ -32,4 +32,4 @@ def pred(driver,constructor,quali,circuit):
     return y_dict[prediction]
 
 
-print(pred('Charles Leclerc', 'Haas F1 Team', '14', 'Silverstone Circuit'))
+print(pred('Charles Leclerc', 'Ferrari', '1', 'Silverstone Circuit'))
